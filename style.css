@@ -142,5 +142,27 @@ header nav ul li a:hover {
 }
 .production h5 {
     font-size: 1.5rem;
-    
+    padding: 20px 0;
+}
+
+/* footer */
+footer {
+    padding: var(--padding);
+    background: var(--gray);
+    color: var(--white);
+    text-align: center;
+}
+footer .fa-heart {
+    color: red;
+}
+footer .fab {
+    color: var(--orange);
+    margin: 15px 10px;
+    font-size: 2rem;
+}
+footer .fab:hover {
+    color: var(--white);
+}
+footer i {
+    transition: var(--transition);
 }
