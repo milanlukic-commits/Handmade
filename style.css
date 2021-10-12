@@ -39,7 +39,6 @@ a {
     text-decoration: none;
     transition: var(--transition);
 }
-
 h2 {
     font-size: 2rem;
     text-align: center;
@@ -165,4 +164,31 @@ footer .fab:hover {
 }
 footer i {
     transition: var(--transition);
+}
+
+@media (max-width: 767px) {
+    header {
+        background-position: bottom;
+        background-size: 150vh;
+    }
+    header nav {
+        padding: 5px 10px;
+    }
+    header h1 {
+        padding: 5px 40px;
+    }
+    header nav ul li {
+        padding: 5px;
+    }
+    .services article {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .production div {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .production div:last-child {
+        margin-bottom: 10px;
+    }
 }
