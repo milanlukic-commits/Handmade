@@ -1,5 +1,5 @@
 #Handmade
 
-https://milanlukic-commits.github.io/handmade.github.io
+https://milanlukic-commits.github.io/handmade
 
 Project in HTML and CSS
